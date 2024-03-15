@@ -1,7 +1,7 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper"
 import { MotionDiv } from "@/components/MotionDiv"
 import { MotionImage } from "@/components/MotionImage"
-import { TextReveal5 } from "@/components/TextReaveal5"
+import { TextReveal5 } from "@/components/TextReveal5"
 import { TextReveal } from "@/components/TextReveal"
 import { TextReveal2 } from "@/components/TextReveal2"
 import { TextReveal3 } from "@/components/TextReveal3"
@@ -25,7 +25,7 @@ const ProjectPage = () => {
         </TextReveal>
         <TextReveal5>
           <p className="text-2xl pb-20">
-            Here are some projects I've worked on.
+            Here are some projects I&apos;ve worked on.
           </p>
         </TextReveal5>
 

@@ -1,11 +1,12 @@
 import Footer from "@/components/Footer"
 import MaxWidthWrapper from "@/components/MaxWidthWrapper"
 import { MotionDiv } from "@/components/MotionDiv"
-import { TextReveal5 } from "@/components/TextReaveal5"
+
 import { TextReveal } from "@/components/TextReveal"
 import { TextReveal2 } from "@/components/TextReveal2"
 import { TextReveal3 } from "@/components/TextReveal3"
 import { TextReveal4 } from "@/components/TextReveal4"
+import { TextReveal5 } from "@/components/TextReveal5"
 import { Button, buttonVariants } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
@@ -50,14 +51,14 @@ export default function Home() {
           </TextReveal5>
           <TextReveal3>
             <p className="text-slate-400 text-xl py-3">
-              I'm a self-taught Frontend Developer.
+              I&apos;m a self-taught Frontend Developer.
             </p>
           </TextReveal3>
           <TextReveal5>
             <p className="text-slate-400 text-xl">
               {" "}
-              I'm looking for a chance to prove myself in the tech world and
-              show what I'm capable of.
+              I&apos;m looking for a chance to prove myself in the tech world
+              and show what I&apos;m capable of.
             </p>
           </TextReveal5>
           <TextReveal4>
@@ -75,7 +76,7 @@ export default function Home() {
           </TextReveal>
           <TextReveal2>
             <p className="text-slate-400 text-xl py-3">
-              Here are some of my favorite projects that I've worked on.
+              Here are some of my favorite projects that I&apos;ve worked on.
             </p>
           </TextReveal2>
 
