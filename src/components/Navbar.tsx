@@ -15,13 +15,13 @@ const Navbar = async () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: -10, opacity: 1 }}
         transition={{ type: "teen", duration: 0.3 }}
-        className="bg-nav w-full"
+        className="bg-nav relative"
       >
         <nav
-          className="m:px-16 text-xl font-bold py-4 px-8 flex justify-around items-center gap-2
+          className="flex  m:px-16 text-xl font-bold py-4 px-8 justify-around items-center gap-2
     flex-wrap  text-white border-b-2 border-l-2 border-r-2  rounded-md border-white"
         >
-          <h1 className="text-2xl -ml-52 font-extrabold">
+          <h1 className="relative text-2xl -ml-52 font-extrabold">
             <MotionDiv
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -33,14 +33,14 @@ const Navbar = async () => {
               }}
               whileHover={{ scale: 1.3 }}
             >
-              <div className="flex -ml-64">
+              <div className="relative -ml-64">
                 <Link className="hover:text-black flex  " href="/">
                   <h1 className="ml-2 mt-1 text-4xl font-extrabold">Logo?</h1>
                 </Link>
               </div>
             </MotionDiv>
           </h1>
-          <div className="flex -ml-[900px]">
+          <div className="relative -ml-[900px]">
             <MotionDiv
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
